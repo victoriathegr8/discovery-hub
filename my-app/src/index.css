@@ -1,0 +1,1071 @@
+/* Style Navbar */
+* {
+  box-sizing: border-box;
+  font-family: "Karla",sans-serif;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Rubik', sans-serif;
+}
+
+
+.navbar.navbar-expand-lg.navbar-light {
+  height: 5rem;
+}
+
+.justify-content-start.me-auto.my-2.my-lg-0.navbar-nav {
+  margin-left: 1rem;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(88, 64, 140);
+  width: 100%;
+  padding: .25rem;
+  
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav img {
+  margin-right: .50rem;
+  padding-left: .50rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color:gold;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+img.align-bottom {
+  padding-left: 2rem;
+}
+
+button.addOrgButton {
+    background-color: rgb(148, 190, 96);
+    border: none;
+    margin: .25rem;
+    padding: .4rem;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+button.signUpButton {
+  background-color: rgb(148, 190, 96) ;
+  border: none;
+  margin: .25rem;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Style back to hompage button */
+button.hompageButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(148, 190, 96) ;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.hompageButton:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.hompageButtonLink {
+  text-decoration: none;
+}
+
+.homepageContainer {
+  display: flex;
+}
+
+
+.filterContainer {
+  display: flex;
+  
+}
+/* Everything that is in the organization box excluding the button */
+.org-container {
+  background-color: rgb(179, 171, 216);
+  display: flex;
+  flex-direction: row;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  margin-top: 2.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+/* picture of org */
+.picture {
+  margin-top: 3rem;
+  display: block;
+}
+
+/* styles words about the organization */
+.org-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  margin: 1.5rem;
+}
+
+/* styles entire bio section for org */
+.bio-content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* styles title bio title for org */
+.bio-title {
+  display: flex;
+  flex-direction: row;
+  margin-top: .2rem;
+}
+
+/* styles bio paragraph */
+.bio-para {
+  display: flex;
+  flex-direction: row;
+  margin-left: .7rem;
+}
+
+/* styles the title for each subject/platform/service */
+section .title-row {
+  text-align: center;
+}
+
+/* styles the title for each subject/platform/service */
+.orgCard-content3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* styles the title for each subject/platform/service */
+.orgCard-offerings {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* styles inner content for each availble service/platform/subject */
+.orgCard-content2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* styles the border space between each available service */
+.orgCard-border {
+  border-left: 1px solid black;
+}
+
+/* styles the subjects of the organization  */
+.orgCard-subjects {
+  flex-basis: 40%;
+}
+
+/* styles the title offerings for each service */
+.orgCard-offerings-titles {
+  margin: .25rem;
+}
+
+/* styles the rounded corners of each availble service/subject/platform*/
+.orgCard-rCorners {
+  /* flex-direction: row; */
+  /* border-radius: 15px; */
+  border: 1px solid black;
+  padding: 0.4rem;
+  width: 75px;
+  text-align: center;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+}
+
+/* styles the contact section for the org */
+.org-contactEmail {
+  display: flex;
+  flex-direction: row;
+}
+
+.org-contactInfo {
+  border-top: 1px solid black;
+  margin-top: 1rem;
+}
+
+/* styles the org email */
+.orgEmail {
+  margin-left: .5rem;
+}
+
+/* styles the homepage button */
+.hompageButton {
+  margin-top: 2.5rem;
+}
+
+/* -------- styles the signUp/Login PopUp -------*/
+
+ /* styles the entire login/signup box */
+.signUpLogin {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+ /* styles signup/login container in box */
+.signUpContainer {
+  display: flex;
+  flex-direction: column;
+  /* width: 50%; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  background-color: rgb(88, 64, 140);
+  padding-top: 1rem;
+  color: white;
+}
+
+.signUpLogin {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: 2rem; */
+}
+
+ /* styles login content */
+.signInGoogle {
+  display: flex;
+  /* width: 50%; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem; 
+  /* justify-content: space-between; */
+}
+
+/* styles password checklist */
+button.btn.btn-primary {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.orgSignUpLogin {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.orgSignUpContainer{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  background-color: rgb(88, 64, 140);
+  color: white;
+  padding: 3rem;
+}
+.orgSignUpContainer h1 {
+  align-items: center;
+}
+
+/* styles list for password validation checklist */
+ul {
+  color: black;
+}
+
+section.signInGoogle {
+  display: flex;
+  margin-top: 1rem;
+}
+ /* styles popUp content */
+ .popUpContainer {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  padding-top: 2rem;
+ }
+
+.popUpContainer h1{
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  
+}
+.popUpContent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.popUpContent h3{
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.Popsignup {
+  margin-right: 1rem;
+}
+
+.PopRegisterOrg {
+  margin-left: 1rem;
+}
+
+.popUpContent .Popsignup img{
+  display: flex;
+  width: 300;
+  height: 350;
+  align-items: center;
+}
+
+.testOne {
+  display: flex;
+}
+
+.testTwo {
+  display: flex;
+}
+
+
+
+/* Styles the UserorOrg Page */
+
+.registerProgileTitle {
+  margin-bottom: 1rem;
+  align-content: center;
+}
+
+/* sytles userOr Org container */
+.userOrOrg {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+/* sytles exit button and title */
+.titleAndExit {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+}
+
+/* sytles exit button */
+.exitButton {
+  display: flex;
+  width: 40px;
+  height: 60px;
+  margin-left: 1rem;
+}
+
+/* styles coontainer for content */
+.userOrOrgContainer {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  background-color: rgb(163, 163, 163);
+}
+
+/* styles content in container */
+.signUpLoginContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2rem;
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+
+/* pictures */
+section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200pt;
+  height: 200pt;
+}
+
+/* styles city select on register org popup*/
+.selectCity {
+  padding: .5rem;
+}
+
+/* styles register organization popup button */
+.registerOrgButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(148, 190, 96) ;
+  border: none;
+  color: black;
+  padding: 15px 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.modalButtons {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(148, 190, 96) ;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+.modalButtons:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img.modalImage {
+  /* width: 50%; */
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+ /* user profile page */
+
+  /* profile container */
+ .profileContainer {
+   display: flex;
+   /* justify-content: center; */
+   background-color: rgb(179, 171, 216);
+   width: 40%;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 3rem;
+   margin-top: 5rem;
+   /* justify-items: center; */
+ }
+
+ .buttonRow {
+   margin-top: 1rem;
+   display: inline-block;
+   width: 20rem;
+   align-content: center;
+   align-items: center;
+ }
+  /* profile content in container */
+ .profileContent {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  align-content: center;
+ }
+
+ .profilePagePicture {
+   margin-bottom: 1rem;
+ }
+
+ .profileContent label.form-label {
+   margin-top: .5rem;
+ }
+
+ .form-label {
+   margin: 0%;
+ }
+
+
+   /* styles profile image in content */
+ .profileContainer img {
+   width: 15rem;
+   height: 15rem;
+   justify-self: center;
+   margin-top: 3rem;
+ }
+
+
+.viewFavoritesProfileButton {
+  border: none;
+  height: 25px;
+  width: 130px;
+  /* margin-left: 4rem;
+  margin-left: auto;
+  margin-right: auto; */
+  /* padding: 32px;  */
+  border-radius: 4px; 
+  background-color: rgb(88, 64, 140);
+  color: white;  
+}
+
+.profileContent label {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+input.userNameInput, input.emailNameInput {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+}
+
+.profileLogOutButton {
+    border: none;
+    height: 25px;
+    width: 130px;
+    margin-left: .5rem;
+    margin-right: auto;
+    border-radius: 4px;
+    background-color: rgb(170, 36, 36);
+    color: white;
+}
+
+ul.about {
+    list-style-type: none;
+    text-align: left;
+}
+
+.about-content img {
+  width: 30rem;
+}
+
+.about-info {
+  text-align: left;
+}
+
+.about-info h3, h4, h5 {
+  padding-top: 1rem;
+
+}
+.about-info p {
+  margin: 0%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.orgCard {
+  display: flex;
+  border: 2px solid black;
+  margin: 1rem;
+  box-sizing: border-box;
+  box-shadow: 0 9px 10px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.orgCard img {
+  /* border-right: 1px solid black; */
+  margin: 1rem;
+  width: 16vw;
+  height: 16vw;
+  align-self: center;
+  padding: 0.5rem;
+}
+.orgCard-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1rem;
+  flex-wrap: wrap;
+}
+.orgCard-content2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.orgCard-content3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.orgCard-rCorners {
+  /* border-radius: 15px;
+  border: 1px solid black; */
+  padding: 0.4rem;
+  width: 90px;
+  text-align: center;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+}
+.orgCard-offerings {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.orgCard-border {
+  border-left: 1px solid black;
+}
+.orgCard-services, .orgCard-platforms {
+  flex-basis: 20%;
+}
+.orgCard-subjects {
+  flex-basis: 40%;
+}
+.orgCard-offerings-titles {
+  text-align: center;
+}
+.orgCard-image {
+  position: relative;
+}
+.orgCard-image img {
+  width: 16vw;
+  height: 16vw;
+
+}
+.orgCard-image i {
+  position: absolute;
+  cursor: pointer;
+  font-size: 2rem;
+  top: 0;
+  left: 0;
+}
+.container {
+  width: 60%;
+}
+
+#registerForm {
+  width: 75%;
+}
+
+/* The Modal (background) */
+.addmodal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#registerModalContent, #popupContent, #signUpModalContent {
+  width: 70%;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%; /* Could be more or less, depending on screen size */
+}
+
+.popupmodal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.signUpmodal {
+  position: fixed; /* Stay in place */
+  display: none;
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.registrationValidation {
+  color: rgb(170, 36, 36);
+}
+
+div.card {
+  border: 1px solid black;
+}
+
+h5#Filters.card-header {
+  background-color: rgb(179, 171, 216); 
+  border-bottom: 1px solid black;
+  
+}
+
+.filterLabel {
+  padding-left: 1rem;
+}
+
+.favoritesPageContainer {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+}
+
+.favioritesCardsContainer {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+
+.card {
+  margin: .5rem;
+}
+
+a.favCardLink {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+.fav-orgCard-offerings-titles {
+  margin: .10rem;
+  font-size: 15px;
+}
+
+.fav-orgCard-offerings {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 13px;
+  /* padding: 0.1rem; */
+}
+
+.fav-orgCard-rCorners {
+  /* flex-direction: row; */
+  /* border-radius: 15px; */
+  border: 1px solid black;
+  padding: 0.2rem;
+  width: 75px;
+  text-align: center;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+}
+
+.fa-regular {
+  color: gold;
+  margin: .25rem;
+}
+
+.fav-orgCard-image {
+  position: relative;
+  border-bottom: 1.5px solid black;
+}
+.fav-orgCard-image img {
+  width: 100%;
+}
+.fav-orgCard-image i {
+  position: absolute;
+  cursor: pointer;
+  font-size: 2rem;
+  top: 0;
+  left: 0;
+}
+
+.signUpContainer h1 {
+  text-align: center;
+}
+
+.team-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* padding: 2px 16px; */
+}
+
+img.teamPicture {
+  width: 20vw;
+  height: 20vw;
+}
+
+.team-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: max-content;
+  margin: 1em;
+  /* overflow-wrap: break-word; */
+}
+
+img.teamPicturePrecious {
+  object-fit: cover;
+  /* object-position: 20% 30%; */
+  width: 20vw;
+  height: 20vw;
+}
+
+.LinkedInButton {
+  /* display: block; */
+  width: 100%;
+  /* margin-left: auto;
+  margin-right: auto; */
+  background-color: rgb(179, 171, 216);
+  border: none;
+  color: white;
+  padding: 1rem ;
+  text-align: center;
+  padding-bottom: 1rem;
+  /* text-decoration: none; */
+}
+
+a.LinkedInButton:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.team-container {
+  line-height: normal;
+  margin: .5rem;
+  inline-size: 18vw;
+  overflow-wrap: break-word;
+  hyphens: manual;
+}
+
+h5.team-text {
+  margin-bottom: .50rem;
+  padding: 0%;
+}
+p.team-bio {
+  margin-bottom: 1rem;
+  padding: 0%;
+}
+/* Responsive Design */
+
+@media (min-width: 414px) {
+.iphone-orgCard-image {
+  display: none;
+}
+}
+
+@media (max-width: 414px) {
+  form {
+    display: none;
+  }
+
+  img {
+    width: 20vw;
+  }
+
+  .orgCard {
+    width: 90vw;
+  }
+
+  .orgCard-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .orgCard-content3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .orgCard-image {
+    display: none;
+  }
+
+  .iphone-orgCard-image {
+    display: flex;
+    flex-direction: wrap;
+    width: auto;
+    height: auto;
+  }
+  .orgCard-services, .orgCard-platforms, .orgCard-subjects{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    /* flex-wrap: wrap; */
+  }
+
+  .orgCard-border {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  #form-feature {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  #menu {
+    text-align:center
+  }
+}
+
+@media (min-width: 768px) {
+  #form-feature {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  #form-feature {
+    margin-top: 37px;
+  }
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 26px;
+}
+
+#navLinks {
+  display: none;
+}
+
+#mainNav {
+  flex-direction: row;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+@media (min-width: 1200px) {
+  #form-feature {
+    margin-top: 37px;
+  }
+  #burgerMenu1, #burgerMenu2 {
+    display: none;
+  }
+  #navLinks {
+    display: flex;
+  }
+
+}  

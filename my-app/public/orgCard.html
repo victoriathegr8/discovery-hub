@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.orgCard {
+    display: flex;
+    border: 2px solid black;
+    margin: 1rem;
+    box-sizing: border-box;
+}
+.orgCard img {
+    border: 1px solid black;
+    margin: 1rem;
+    width: 30%;
+    align-self: center;
+    padding: 0.5rem;
+}
+.orgCard-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
+.orgCard-content2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.orgCard-content3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.orgCard-rCorners {
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 0.4rem;
+    width: 70px;
+    text-align: center;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+}
+.orgCard-offerings {
+    display: flex;
+    justify-content: space-evenly;
+}
+.orgCard-border {
+    border-left: 1px solid black;
+}
+.orgCard-services, .orgCard-platforms {
+    flex-basis: 20%;
+}
+.orgCard-subjects {
+    flex-basis: 40%;
+}
+.orgCard-offerings-titles {
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="orgCard">
+    <img src="kiwanis-logo.png">
+    <div class="orgCard-content">
+        <div class="orgCard-content2">
+            <p>Name of Organization - University/School</p>
+            <p class="seeMore">See More ></p>
+        </div>
+        <p>Location: Kirkland</p>
+        <div class="orgCard-content3">
+            <div class="orgCard-services">
+                <p class="orgCard-offerings-titles">Services Available:</p>
+                <div class="orgCard-offerings">
+                    <p class="orgCard-rCorners">Mentor</p>
+                    <p class="orgCard-rCorners">Tutor</p>
+                </div>
+            </div>
+            <div class="orgCard-border"></div>
+            <div class="orgCard-subjects">
+                <p class="orgCard-offerings-titles">Subjects Available:</p>
+                <div class="orgCard-offerings">
+                    <p class="orgCard-rCorners">Math</p>
+                    <p class="orgCard-rCorners">Science</p>
+                    <p class="orgCard-rCorners">Reading</p>
+                    <p class="orgCard-rCorners">Writing</p>
+                </div>
+            </div>
+            <div class="orgCard-border"></div>
+            <div class="orgCard-platforms">
+                <p class="orgCard-offerings-titles">Platforms Available:</p>
+                <div class="orgCard-offerings">
+                    <p class="orgCard-rCorners">Online</p>
+                    <p class="orgCard-rCorners">In-person</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="orgCard">
+    <img src="kiwanis.jpg">
+    <p>Content</p>
+</div>
+</body>
+</html>
